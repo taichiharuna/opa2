@@ -8,10 +8,10 @@ We use GCC (https://gcc.gnu.org/) and GSL (https://www.gnu.org/software/gsl/).
 ### opa2.c
 The code for simulating the new model and generating "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number) 
 
-The codes used in our numerical experiment a sample of the generated files are contained in data_opa2_delta_Z (Z: value of delta).
+The codes used in our numerical experiment and a sample of the generated files are contained in data_opa2_delta_Z (Z: value of delta).
 
 ### opa1adj.c
-The code for simulating the previous model with the adjunction rule and generate "id-deg-knn-cc_tX_trialY.txt"
+The code for simulating the previous model with the adjunction rule and generating "id-deg-knn-cc_tX_trialY.txt"
 
 The codes used in our numerical experiment and a sample of the generated files are contained in data_opa1adj_delta_sqrt3-2.
   
