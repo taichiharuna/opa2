@@ -4,11 +4,11 @@ We use GCC (https://gcc.gnu.org/) and GSL (https://www.gnu.org/software/gsl/).
 
 ### opa2.c
 Simulate the new model and generate "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number). 
-The generated data and the codes acturally used in our numerical experiment are contained in data_opa2_delta_Z (Z: value of delta).
+The codes used in our numerical experiment a sample of the generated files are contained in data_opa2_delta_Z (Z: value of delta).
 
 ### opa1adj.c
 Simulate the previous model with the adjunction rule and generate "id-deg-knn-cc_tX_trialY.txt". 
-The generated data and the codes acturally used in our numerical experiment are contained in data_opa1adj_delta_sqrt3-2.
+The codes used in our numerical experiment and a sample of the generated files are contained in data_opa1adj_delta_sqrt3-2.
   
 ### id-deg-knn-cc_tX_trialY.txt
 - 1st column: Node ID
@@ -18,7 +18,7 @@ The generated data and the codes acturally used in our numerical experiment are 
 
 ### figdata.c
 Generate "degav-ccav.txt" and "degdist-knn-ck_tX.txt" from "id-deg-knn-cc_tX_trialY.txt".
-The generated data and the codes acturally used in our numerical experiment are contained in data_opa2_delta_Z and data_opa1adj_delta_Z.
+The codes used in our numerical experiment and the generated files are contained in data_opa2_delta_Z and data_opa1adj_delta_Z.
  
 ### degav-ccav.txt
 - 1st column: Time step
