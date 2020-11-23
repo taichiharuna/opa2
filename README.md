@@ -6,7 +6,7 @@ The followings are the source codes and data used in the paper.
 We use GCC (https://gcc.gnu.org/) and GSL (https://www.gnu.org/software/gsl/). 
 
 ### opa2.c
-THe code for simulating the new model and generating "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number) 
+The code for simulating the new model and generating "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number) 
 
 The codes used in our numerical experiment a sample of the generated files are contained in data_opa2_delta_Z (Z: value of delta).
 
