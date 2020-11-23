@@ -1,13 +1,18 @@
-The source codes and data for Haruna, T., Gunji, Y.-P., Analysis and Synthesis of a Growing Network Model Generating Dense Scale-Free Networks via Category Theory, preprint.
+### opa2.pdf
+Haruna, T., Gunji, Y.-P., Analysis and Synthesis of a Growing Network Model Generating Dense Scale-Free Networks via Category Theory, preprint.
+
+The followings are the source codes and data used in the paper.
 
 We use GCC (https://gcc.gnu.org/) and GSL (https://www.gnu.org/software/gsl/). 
 
 ### opa2.c
-Simulate the new model and generate "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number). 
+THe code for simulating the new model and generating "id-deg-knn-cc_tX_trialY.txt" (X: sampled time step, Y: trial number) 
+
 The codes used in our numerical experiment a sample of the generated files are contained in data_opa2_delta_Z (Z: value of delta).
 
 ### opa1adj.c
-Simulate the previous model with the adjunction rule and generate "id-deg-knn-cc_tX_trialY.txt". 
+The code for simulating the previous model with the adjunction rule and generate "id-deg-knn-cc_tX_trialY.txt"
+
 The codes used in our numerical experiment and a sample of the generated files are contained in data_opa1adj_delta_sqrt3-2.
   
 ### id-deg-knn-cc_tX_trialY.txt
@@ -17,7 +22,8 @@ The codes used in our numerical experiment and a sample of the generated files a
 - 4th column: The local clustering coefficient of the node
 
 ### figdata.c
-Generate "degav-ccav.txt" and "degdist-knn-ck_tX.txt" from "id-deg-knn-cc_tX_trialY.txt".
+The code for generating "degav-ccav.txt" and "degdist-knn-ck_tX.txt" from "id-deg-knn-cc_tX_trialY.txt".
+
 The codes used in our numerical experiment and the generated files are contained in data_opa2_delta_Z and data_opa1adj_delta_Z.
  
 ### degav-ccav.txt
