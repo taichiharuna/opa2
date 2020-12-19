@@ -1,5 +1,5 @@
 ### opa2.pdf
-Haruna, T., Gunji, Y.-P., Analysis and Synthesis of a Growing Network Model Generating Dense Scale-Free Networks via Category Theory, preprint.
+A preprint version of Haruna, T., Gunji, Y.-P., 2020. Analysis and synthesis of a growing network model generating dense scale-free networks via category theory. Scientific Reports 10, 22351 (https://www.nature.com/articles/s41598-020-79318-7).
 
 The followings are the source codes and data used in the paper.
 
